@@ -1,0 +1,8 @@
+ojdbc6 파일 어디에 옮기라는 건지 못들음
+
+
+scott 계정 활성화하기 (sqlplus - system)
+
+@C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin\scott.sql
+
+sql> alter user scott identified by 0000 account unlock default tablespace users temporary tablespace temp;
